@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/fundo.jpg);
+    background-image: url(images/1297053.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -14,7 +14,7 @@ body {
 
 #mywork {
     font-family: Gruppo;
-    color: black;
+    color: white;
     font-weight: normal;
     margin-top: 33px;
 
@@ -125,6 +125,7 @@ img {
     height: 5.5em;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .adicionar {  
