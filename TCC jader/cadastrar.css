@@ -1,0 +1,105 @@
+body {
+    background-image: url(images/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    display: grid;
+    place-items: center;
+    margin-top: 130px;
+    padding: 0;
+
+
+}
+
+h1 {
+    font-family: Gruppo;
+    color: black;
+    font-weight: normal;
+    margin-top: -40px;
+}
+
+@font-face {
+    font-family: Gruppo;
+    src: url(./Gruppo-Regular.ttf);
+}
+img {
+    height: 35px;
+    width: 35px;
+    margin-bottom: -10px;
+
+}
+#login{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2em;
+    border-radius: 1em;
+    height: 26em;
+    width: 30em;
+    margin-top: 30%;
+}
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    font-size: 2em;
+    display: grid;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 12%;
+}
+.usuario,
+.senha,
+.email{
+    margin-bottom: 6%;
+    height: 35px;
+    width: 420px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.email:focus,
+.senha:focus,
+.usuario:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.7);
+}
+
+.email::placeholder,
+.senha::placeholder,
+.usuario::placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}
+.cadastrar {
+    border: none;
+    border-radius: 0.3em;
+    background-color: #ffffff;
+    font-size: 23px;
+    width: 6em;
+    height: 2em;
+    display: block;
+    margin-top: 6%;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 10);
+    transition: background-color 0.3s ease-in-out;
+}
+.cadastrar:hover {
+    background-color: #f1f1f1;
+}
+
+.cadastrar:active {
+    background-color: rgb(74, 145, 145);
+}
+
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
