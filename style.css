@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/fundo.jpg);
+    background-image: url(images/fundoSpace.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,7 +15,7 @@ body {
 
 h1 {
     font-family: Gruppo;
-    color: black;
+    color: white;
     font-weight: normal;
     margin-top: -40px;
 }
